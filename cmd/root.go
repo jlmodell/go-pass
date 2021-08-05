@@ -22,10 +22,7 @@ var (
 	rootCmd = &cobra.Command{
 		Use: "cobra",
 		Short: "init with key or random will be given",
-		Long: "initialize with a key or random will be generated for you",
-		Run: func(cmd *cobra.Command, args []string) {
-			
-		},
+		Long: "initialize with a key or random will be generated for you",		
 	}
 )
 
